@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.info{
+    background-color: #FFDCDC;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-box{
+    background-color: #FDAAAA;
+    height : 60px;
+    width : 220px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : #F3E2D4;
+    font-size: 1.1rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav{
+    height : 60px;
+    display : flex;
+    align-items: center;
+    justify-content: center;}
+.t1{
+    text-align: center;
+}
+.border{
+    border : 5px solid transparent;
+}
+.border:hover{
+    border : 5px solid #F5BABB;
+    color : #239BA7;
+}
+.search-area{
+    background-color: transparent;
+    height : 40px;
+    width : 1200px;
+    display : flex;
+    justify-content: space-evenly;
+}
+.search-box{
+    height : 35px;
+    width : 13.8rem;
+    background-color : transparent;
+    border-radius : 0.3rem;
+    outline : none;
+    border : none;
+    border-bottom-width : full;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+}
+.button1{
+    height : 35px;
+    width :6rem;
+    background-color : #F6F1E9;
+    border-radius : 0.6rem;
+    outline : none;
+    margin-left : 1rem;
+    color : gray;
+    border-left : none;
+    border-right : none;
+    font-family: bold;
+}
+.container{
+    width: 100%;
+    height: 74vh;
+    background-color: aqua;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather_container{
+    color : rgb(165, 4, 130);
+}
+.tem{
+    font-size : 7rem;
+}
+.time_location{
+    font-size : 3.5rem;
+}
+.Location{
+    margin-top : 1.5rem;
+    color : #D92C54;
+}
+.Time{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color : #7469B6;
+    font-size: 2.5rem;
+}
+.Date{
+    color : #555879;
+}
+.condition{
+    font-size : 1.6rem;
+    margin-top : 2rem;
+    color : #1B3C53;
+    text-decoration: underline;
+}
+.footer{
+    background-color : rebeccapurple;
+    height : 10vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
